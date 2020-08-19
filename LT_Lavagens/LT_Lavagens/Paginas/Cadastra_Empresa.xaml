@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="LT_Lavagens.Paginas.Cadastra_Empresa">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="Nome" Placeholder="Nome da Empresa" />
+            <Entry x:Name="Rua" Placeholder="Rua" />
+            <Entry x:Name="Bairro" Placeholder="Bairro" />
+            <Picker x:Name="Estado" Title="Estado">
+                <Picker.Items>
+                    <x:String>AC</x:String>
+                    <x:String>AL</x:String>
+                    <x:String>AP</x:String>
+                    <x:String>AM</x:String>
+                    <x:String>BA</x:String>
+                    <x:String>CE</x:String>
+                    <x:String>DF</x:String>
+                    <x:String>ES</x:String>
+                    <x:String>GO</x:String>
+                    <x:String>MA</x:String>
+                    <x:String>MT</x:String>
+                    <x:String>MS</x:String>
+                    <x:String>MG</x:String>
+                    <x:String>PA</x:String>
+                    <x:String>PB</x:String>
+                    <x:String>PR</x:String>
+                    <x:String>PE</x:String>
+                    <x:String>PI</x:String>
+                    <x:String>RJ</x:String>
+                    <x:String>RN</x:String>
+                    <x:String>RS</x:String>
+                    <x:String>RO</x:String>
+                    <x:String>RR</x:String>
+                    <x:String>SC</x:String>
+                    <x:String>SP</x:String>
+                    <x:String>SE</x:String>
+                    <x:String>TO</x:String>
+                </Picker.Items>
+            </Picker>
+            <Entry x:Name="Cep" Placeholder="Cep" />
+            <Entry x:Name="Cidade" Placeholder="Cidade" />
+            <Button Text="Proximo" Clicked="ProximaPagina" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

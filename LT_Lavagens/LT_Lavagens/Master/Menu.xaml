@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:pag="clr-namespace:LT_Lavagens.Paginas"
+             x:Class="LT_Lavagens.Master.Menu">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu">
+            <StackLayout BackgroundColor="#B0C4DE">
+                <StackLayout Spacing="50" Margin="30">
+                    <Label Text="Seja um parceiro" />
+                    <Button Text="Cadastre-se" Clicked="Cadastra" />
+                    <Label Text="Já sou un parceiro" />
+                    <Button Text="Login" Clicked="Entra" />
+                </StackLayout>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <pag:Inicio />
+            </x:Arguments>
+        </NavigationPage>
+    </MasterDetailPage.Detail>S
+</MasterDetailPage>
