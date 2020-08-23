@@ -11,6 +11,8 @@
             <Editor x:Name="Descricao" HeightRequest="150" />
             <Label Text="Serviços" />
             <Editor x:Name="Servicos" HeightRequest="150" />
+            <Label Text="Horario" />
+            <Editor x:Name="Horario" HeightRequest="150" />
             <Button Text="Salvar" Clicked="SalvaAction" />
         </StackLayout>
     </ContentPage.Content>

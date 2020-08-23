@@ -27,6 +27,7 @@
                                 <StackLayout Grid.Column="0">
                                     <Label  Text="{Binding Descricao}" FontAttributes="Bold" />
                                     <Label  Text="{Binding Servicos}" />
+                                    <Label Text="{Binding Horario}" />
                                 </StackLayout>
                             </Grid>
                         </ViewCell>

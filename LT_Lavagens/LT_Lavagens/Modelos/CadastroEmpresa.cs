@@ -20,5 +20,6 @@ namespace LT_Lavagens.Modelos
         public string PessoaJuridica { get; set; }
         public string Descricao { get; set; }
         public string Servicos { get; set; }
+        public string Horario { get; set; }
     }
 }

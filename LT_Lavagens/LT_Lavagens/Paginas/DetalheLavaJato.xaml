@@ -7,8 +7,10 @@
              x:Class="LT_Lavagens.Paginas.DetalheLavaJato">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Quantidade(Vagas): " FontAttributes="Bold" />
+            <Label Text="Serviços: " FontAttributes="Bold" />
             <Label Text="{Binding Descricao}" />
+            <Label Text="Horários de atendimento:" FontAttributes="Bold" />
+            <Label Text="{Binding Horario}" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

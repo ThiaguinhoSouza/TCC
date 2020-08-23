@@ -28,6 +28,7 @@ namespace LT_Lavagens.Paginas
         {
             cadastroEmpresa.Servicos = Servicos.Text;
             cadastroEmpresa.Descricao = Descricao.Text;
+            cadastroEmpresa.Horario = Horario.Text;
 
             DataBase database = new DataBase();
             database.Atualizacao(cadastroEmpresa);
